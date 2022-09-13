@@ -29,6 +29,7 @@ namespace Text_file_to_wallet_address
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             this.results = new System.Windows.Forms.RichTextBox();
             this.load = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -149,6 +150,9 @@ namespace Text_file_to_wallet_address
             this.Controls.Add(this.label1);
             this.Controls.Add(this.load);
             this.Controls.Add(this.results);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "main";
             this.Text = "Text File to wallet address";
             this.Load += new System.EventHandler(this.main_Load);
