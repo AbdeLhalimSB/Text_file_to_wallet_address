@@ -41,17 +41,17 @@ namespace Text_file_to_wallet_address
             {
                 try
                 {
-                    //MessageBox.Show(RemoveAllWhitespaces(list[i]));
-                    //list[i] = RemoveAllWhitespaces(list[i]);
-                    MessageBox.Show(list[i]);
-                    wallet = list[i].Substring(list[i].IndexOf('0'), list[i].IndexOf(']'));
+                    list[i] = RemoveAllWhitespaces(list[i]);
+                    wallet = list[i].Substring(list[i].IndexOf("0x"));
+                    wallet = wallet.Substring(wallet.IndexOf("0x"),wallet.IndexOf(breaker.Text));
                     results.Text += wallet + "\n";
                 }
                 catch(Exception s)
                 {
-                    MessageBox.Show(s.Message+" "+i);
+                    //MessageBox.Show(s.Message+" "+i);
                 }
             }
+            wallets.Text = (results.Lines.Length - 1).ToString();
         }
 
         public static string RemoveAllWhitespaces(string source)
@@ -65,7 +65,6 @@ namespace Text_file_to_wallet_address
                     r += chararr[i].ToString();
                 }
             }
-            //string r = chararr.ToString();
             return r;
         }
 
@@ -79,6 +78,16 @@ namespace Text_file_to_wallet_address
             {
                 MessageBox.Show("Load the text file first !!", "Loading Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void main_Load(object sender, EventArgs e)
+        {
+            breaker.Text = "]";
+        }
+
+        private void copy_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText(results.Text);
         }
     }
 }

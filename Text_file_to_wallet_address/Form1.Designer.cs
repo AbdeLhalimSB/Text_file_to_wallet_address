@@ -115,6 +115,7 @@ namespace Text_file_to_wallet_address
             this.copy.TabIndex = 5;
             this.copy.Text = "Copy";
             this.copy.UseVisualStyleBackColor = true;
+            this.copy.Click += new System.EventHandler(this.copy_Click);
             // 
             // label2
             // 
@@ -150,6 +151,7 @@ namespace Text_file_to_wallet_address
             this.Controls.Add(this.results);
             this.Name = "main";
             this.Text = "Text File to wallet address";
+            this.Load += new System.EventHandler(this.main_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
