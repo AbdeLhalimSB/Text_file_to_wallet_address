@@ -1,0 +1,10 @@
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\bin\Debug\Text_file_to_wallet_address.exe.config
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\bin\Debug\Text_file_to_wallet_address.exe
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\bin\Debug\Text_file_to_wallet_address.pdb
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\obj\Debug\Text_file_to_wallet_address.csproj.AssemblyReference.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\obj\Debug\Text_file_to_wallet_address.main.resources
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\obj\Debug\Text_file_to_wallet_address.Properties.Resources.resources
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\obj\Debug\Text_file_to_wallet_address.csproj.GenerateResource.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\obj\Debug\Text_file_to_wallet_address.csproj.CoreCompileInputs.cache
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\obj\Debug\Text_file_to_wallet_address.exe
+C:\Users\sahba\OneDrive\Desktop\Working_Onit\Text_file_to_wallet_address\Text_file_to_wallet_address\obj\Debug\Text_file_to_wallet_address.pdb
